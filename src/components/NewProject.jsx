@@ -19,7 +19,7 @@ export default function NewProject({ onAdd, onCancel }) {
     onAdd({
       title: enteredTitle,
       description: enteredDescription,
-      duDate: enteredDueDate,
+      dueDate: enteredDueDate,
     });
   }
   return (
